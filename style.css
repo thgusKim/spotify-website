@@ -1,0 +1,152 @@
+body {
+    margin: 0px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    height: 846px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+    background-size: 153%;
+    background-position: right 40% center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 530.4px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    padding: 28px 17px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.headline {
+    font-size: 104px;
+    font-weight: 900;
+    color: #1ed760;
+    position: relative;
+    left: 30px;
+    padding-bottom: 24px;
+}
+
+.headline-first {
+    position: relative;
+    left: -0.5em;
+}
+
+.headline-second {
+    position: relative;
+    right: -0.5em;
+}
+
+.sub-headline {
+    color: #1ed760;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.button-area {
+    text-align: center;
+}
+
+.button-style {
+    background-color: #1ed760;
+    padding: 14px 32px;
+    border-radius: 500px;
+    color: rgb(41, 65, 171);
+    font-weight: 700;
+    border: 0px;
+}
+
+.button-style:hover {
+    transform: scale(1.1);
+}
+
+.footer-area {
+    padding: 80px 0 50px;
+    width: 1170px;
+}
+
+.footer-first {
+    /* border: 1px solid yellow; */
+    height: 346px;
+    display: flex;
+}
+
+.footer-first-left {
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+
+.footer-menu {
+    width: 25%;
+}
+
+.footer-menu div {
+    margin: 20px 0;
+    line-height: 1.4;
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.footer-menu a {
+    display: flex;
+    padding: 3px 0 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer-first-right {
+    margin: 20px 15px 0 auto;
+}
+
+.footer-first-right a {
+    padding-right: 20px;
+}
+
+.footer-second {
+    text-align: right;
+}
+
+.footer-second-style {
+    font-size: 12px;
+    color: #919496;
+    margin-right: 24px;
+}
+
+.footer-third {
+    display: flex;
+    margin-top: 15px;
+}
+.footer-third-style {
+    margin: 0 24px 0 auto;
+}
